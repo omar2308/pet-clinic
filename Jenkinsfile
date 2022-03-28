@@ -21,7 +21,7 @@ pipeline {
                 junit 'target/surefire-reports/TEST-*.xml'
             }
         }
-        
+          
         stage('Dependency check') {
             agent any
             steps {
